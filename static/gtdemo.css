@@ -1,0 +1,39 @@
+#header {
+background-color: gray;
+color: gray;
+padding: 10px;
+}
+#title {
+float:left;
+/*background-color: red;*/
+color: white;
+}
+#about {
+float:right;
+/*background-color: yellow;*/
+color: white;
+}
+#content {
+clear:both;
+padding:2px;
+}
+#leftbox {
+float:left;
+padding:2px;
+}
+#rightbox {
+float:right;
+padding:1px;
+}
+#footer {
+clear:both;
+padding:10px;
+background-color: gray;
+}
+
+#map {
+float:left;
+height: 500px;/*500px;*/
+width: 800px;/*1000px;*/}
+
+/**************************/

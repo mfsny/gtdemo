@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+    <title>GeoTrellis demo</title>
+
+    <meta name="description" content="GeoTrellis demo">
+    <meta name="author" content="mfsny, based on 0.8 demo by Azavea, adjusted for 0.9">
+    <meta charset="utf-8">
+
+    <link rel="stylesheet" type="text/css" href="gtdemo.css"/>
+    <!--link rel="stylesheet" href="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.css" /-->
+    <link rel="stylesheet" type="text/css" href="css/leaflet-0.7.3.css">
+    <link rel="stylesheet" type="text/css" href="css/jquery-ui.css"/>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css"/>
+    <link rel="stylesheet" type="text/css" href="css/bootstrap-responsive.min.css"/>
+
+    <!--script src="http://cdn.leafletjs.com/leaflet-0.7.3/leaflet.js"></script-->
+    <script src="js/leaflet-0.7.3.js"></script>
+    <script src="js/jquery-1.9.1.min.js"></script>
+    <script src="js/jquery-ui-1.10.0.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <!--script src="http://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.4.4/underscore-min.js"></script-->
+    <script src="js/underscore-min.js"></script>
+</head>
+<body>
+<div id="main">
+    <div id="header">header
+        <div id="title">
+            Hello, world! from HTML .. index.html
+        </div>
+        <div id="about">about</div>
+    </div>
+    <div id="content">
+        <div id="leftbox">
+            <div id="map"></div>
+        </div>
+
+        <div id="rightbox">
+            <br/><a href="">forwarding to index.html</a>
+            <br/><a href="/index.html">index.html (direct link)</a>
+            <br/><a href="/html/index.html">index.html (via static)</a>
+            <br/><a href="/html/css/gtdemo.css">CSS</a>
+            <br/><a href="/html/js/gtdemo.js">JavaScript</a>
+            <br/>
+            <br/><a href="/hello">Hello, world!</a>
+            <br/><a href="ping">ping!</a>
+            <br/>
+            <br/><a href="/get/json">JSON</a>
+            <br/><a href="/get/png">PNG</a>
+            <br/><a href="/get/colorramps">color ramps</a>
+            <br/>
+            <br/><a href="/get/geo/SBN_farm_mkt">SBN_farm_mkt</a>
+            <br/><a href="/data/arg/SBN_farm_mkt.json">SBN_farm_mkt.json</a>
+            <br/><a href="/data/arg/SBN_farm_mkt.arg">SBN_farm_mkt.arg (download only, no viewer for ARG file format in
+            webbrowser)</a>
+            <!--br/><a href="/get/geo/River09Q100B_London">River09Q100B_London (!) internal server error: Java heap space</a>
+            <br/><a href="/data/arg/River09Q100B_London.json">River09Q100B_London.json</a-->
+            <br/><a href="/data/catalog.json">catalog.json</a>
+            <br/>
+            <div id="debug">debug text</div>
+            <div id="debug2">debug text</div>
+        </div>
+    </div>
+
+    <div id="footer">footer</div>
+    <script src="gtdemo.js"></script>
+</div>
+</body>
+</html>

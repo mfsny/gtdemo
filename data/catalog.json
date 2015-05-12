@@ -1,0 +1,13 @@
+{
+  "catalog": "Catalog of GeoTrellis Demo Data",
+  "stores": [
+    {
+      "store": "gtdemo_store",
+      "params": {
+        "type": "fs",
+        "path": "arg",
+        "cacheAll": "no"
+      }
+    }
+  ]
+}
